@@ -72,7 +72,7 @@ dd {
 
 .hdsub {
     width: 100%;
-    background-color: #1c9a3c41;
+    background-color: #1c9a3c94;
     height: 100%;
     color: white;
     text-align: right;
@@ -81,3 +81,30 @@ dd {
     justify-content: space-between;
     align-items: center;
 }
+
+.card {
+    display: inline-block;
+    perspective: 1000px;
+   }
+   
+   .card:hover .text, .card.hover .text {
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+   }
+   
+   .card img {
+    width: 100%;
+    height: auto;
+   }
+   
+   .card .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 0.5s;
+   }
