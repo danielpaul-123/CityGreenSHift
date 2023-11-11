@@ -85,6 +85,7 @@ dd {
 .card {
     display: inline-block;
     perspective: 1000px;
+    width: 100%;
    }
    
    .card:hover .text, .card.hover .text {
