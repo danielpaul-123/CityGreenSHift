@@ -14,13 +14,10 @@ body {
 }
 
 header {
-    background-color: #187c31;
-    color: white;
-    text-align: right;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-image:url('img/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 h1 {
@@ -71,4 +68,16 @@ dt {
 }
 dd {
     text-align: justify;
+}
+
+.hdsub {
+    width: 100%;
+    background-color: #1c9a3c61;
+    height: 100%;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
