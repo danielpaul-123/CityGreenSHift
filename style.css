@@ -44,13 +44,12 @@ footer {
     padding: 10px;
 }
 
-@media (max-width: 768px) {
-    main {
-        padding: 10px;
-    }
-    .card {
-        width: 100%;
-       }
+header p{
+    font-size: 20px;
+}
+
+header h2{
+    font-size: 30px;
 }
 
 .header {
@@ -69,6 +68,7 @@ h4{
     padding-left: 1%;
     padding-right: 1%;
     text-align: justify;
+    text-indent: 75px;
 }
 dl {
     padding-left: 1%;
@@ -135,12 +135,65 @@ a {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.material-symbols-outlined {
+    font-size: 40px !important;
+    padding-left: 2%;
+}
+
+.bodyimgcardright {
+    max-width: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: right;
+    margin-left: 2%;
+}
+
+.bodyimgcardright img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.bodyimgcardleft {
+    max-width: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: right;
+    margin-right: 2%;
+}
+
+.bodyimgcardleft img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.bodyimgcard-content {
+    padding: 10px;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .card {
         width: 100%;
     }
-}
-.material-symbols-outlined {
-    font-size: 40px !important;
-    padding-left: 2%;
+    .bodyimgcardright {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+    .bodyimgcardleft {
+        max-width: 100%;
+        margin-right: 0%;
+    }
+    main {
+        padding: 10px;
+    }
 }
