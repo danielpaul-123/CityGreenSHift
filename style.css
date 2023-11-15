@@ -185,23 +185,20 @@ a {
     .card {
         width: 100%;
     }
-<<<<<<< HEAD
     .bodyimgcardright {
         max-width: 100%;
-        margin-left: 0%;
+        margin-right: 2%;
     }
     .bodyimgcardleft {
         max-width: 100%;
-        margin-right: 0%;
+        margin-left: 2%;
     }
     main {
         padding: 10px;
     }
 }
-=======
 }
 .material-symbols-outlined {
     font-size: 40px !important;
     padding-left: 3%;
 }
->>>>>>> bf7f17052f402c4933e59f3168f9ea3792071b3a
