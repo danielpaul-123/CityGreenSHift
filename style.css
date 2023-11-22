@@ -64,7 +64,7 @@ h4{
     font-family: 'Open Sans', sans-serif;
 }
 .bd{
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 1%;
     padding-right: 1%;
     text-align: justify;
@@ -166,7 +166,7 @@ a {
     background-color: #eee;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    float: right;
+    float: left;
     margin-right: 2%;
 }
 
