@@ -76,9 +76,11 @@ dl {
 }
 dt {
     font-weight: bold;
+    font-size: 22px;
 }
 dd {
     text-align: justify;
+    font-size: 20px;
 }
 
 .hdsub {
@@ -107,7 +109,7 @@ a {
 
 .card {
     width: 30%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -197,6 +199,7 @@ a {
         padding: 10px;
     }
 }
+
 .material-symbols-outlined {
     font-size: 40px !important;
     padding-left: 3%;
