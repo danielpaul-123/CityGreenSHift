@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
-
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 * {
     box-sizing: border-box;
 }
@@ -203,4 +203,30 @@ a {
 .material-symbols-outlined {
     font-size: 40px !important;
     padding-left: 3%;
+}
+
+#scrollTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #dee1e4;
+    color: rgb(26, 26, 26);
+    border: none;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+   }
+   
+   #scrollTop:hover {
+    opacity: 1;
+   }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 24
 }
