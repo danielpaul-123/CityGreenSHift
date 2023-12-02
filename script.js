@@ -11,4 +11,4 @@ document.getElementById('scrollTop').addEventListener('click', function() {
          clearInterval(scrollInterval);
        }
     }, 10);
-   });
+});
