@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.getElementById('scrollTop').addEventListener('click', function() {
-    const scrollStep = -window.scrollY / 25;
+    const scrollStep = -window.scrollY / 40;
     const scrollInterval = setInterval(() => {
        if (window.scrollY !== 0) {
          window.scrollBy(0, scrollStep);
