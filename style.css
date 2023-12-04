@@ -201,6 +201,7 @@ a {
     }
     main {
         padding: 10px;
+        padding-bottom: 0 !important;
     }
     .about {
         width: 100%;
@@ -226,9 +227,9 @@ a {
     transition: opacity 0.2s;
    }
    
-   #scrollTop:hover {
-    opacity: 1;
-   }
+ #scrollTop:hover {
+   opacity: 1;
+}
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -236,4 +237,11 @@ a {
   'wght' 500,
   'GRAD' 0,
   'opsz' 24
+}
+
+@media (max-width: 1200px) {
+    main{
+        padding-bottom: 90%;
+    }
+
 }
