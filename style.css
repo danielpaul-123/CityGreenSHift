@@ -48,7 +48,7 @@ header p{
 }
 
 header h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .header {
@@ -205,6 +205,15 @@ a {
     }
     .about {
         width: 100%;
+    }
+    .bd {
+        font-size: 15px;
+    }
+    dd {
+        font-size: 15px;
+    }
+    dt {
+        font-size: 17px;
     }
 }
 
